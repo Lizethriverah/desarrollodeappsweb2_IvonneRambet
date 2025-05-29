@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfb;
+    color: #804000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO PARA LA BARRA DE NAVEGACIÓN */
+nav {
+display: flex;
+justify-content: center; /* Centra los elementos horizontalmente */
+align-items: center; /* Asegura que estén alineados verticalmente */
+background: white;
+padding: 10px 0;
+width: 100%;
+}
+
+nav a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 20px;
+padding: 10px 15px;
+transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+color: #010f75; /* Color morado al pasar el mouse */
+transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    gap: 20px; /* Espaciado entre las columnas */
+    padding: 20px;
+}
+
+/* Columna de módulos */
+.module-column {
+    flex: 1; /* Ocupa una parte proporcional del espacio */
+    max-width: 300px; /* Ancho máximo para los módulos */
+}
+
+.module {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Espaciado entre los módulos */
+}
+
+.module h3 a {
+    margin-top: 0;
+    color: #804000; /* Color café */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease; /* Transición para el hover */
+}
+
+.module a:hover {
+    color: #a0512d9f; /* Color café más claro al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.module p {
+    margin: 10px 0;
+}
+
+/* Columna de contenido */
+.content-column {
+    flex: 2; /* Ocupa más espacio que la columna de módulos */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+

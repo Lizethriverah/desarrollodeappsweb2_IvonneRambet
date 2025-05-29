@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-box {
+    background-color: #761717;
+    width: 450px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.login-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.login-box a {
+    color: #ffffff;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+.options {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #006f99;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #005577;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    color: #909c9c;
+}
+
+
